@@ -1,0 +1,57 @@
+.hamburguer {
+  display: none;
+}
+
+header nav {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+header nav #menu {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav #menu .menu-item a {
+  text-decoration: none;
+  font: 600 0.9rem Poppins;
+  color: var(--color-text-in-background);
+  line-height: 2.4rem;
+  text-transform: uppercase;
+
+  transition: color 0.5s ease;
+}
+
+header nav #menu .menu-item a:hover {
+  color: var(--color-secondary-dark);
+}
+
+header nav #menu .sociais {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav #menu .sociais .sociais-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav #menu .sociais .sociais-list i {
+  color: var(--color-text-in-background);
+  font: 0.9rem;
+
+  transition: color 0.5s ease;
+}
+
+header nav #menu .sociais .sociais-list i:hover {
+  color: var(--color-secondary-dark);
+}

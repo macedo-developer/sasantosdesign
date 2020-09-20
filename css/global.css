@@ -1,0 +1,28 @@
+:root {
+  --color-primary: #d4a68e;
+  --color-secondary: #1e1e1e;
+  --color-secondary-dark: #0d0d0d;
+  --color-background: #fff;
+  --color-text-in-background: #aaaaaa;
+  --color-line-in-background: #e6e6e6;
+  --color-white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: Poppins;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
