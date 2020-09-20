@@ -22,14 +22,15 @@ header nav {
   justify-content: space-around;
   align-items: center;
   padding: 3rem 0;
+  background-color: var(--color-primary);
 }
 
 header nav #menu {
   position: absolute;
   width: 100vw;
-  height: 92vh;
+  height: 100vh;
   top: 0;
-  background-color: var(--color-background);
+  background-color: var(--color-primary);
 
   flex-direction: column;
   justify-content: center;
@@ -54,7 +55,7 @@ header nav #menu .menu-item a {
   text-decoration: none;
   font: 600 1.2rem Poppins;
 
-  color: var(--color-text-in-background);
+  color: var(--color-secondary);
   line-height: 2.4rem;
   text-transform: uppercase;
 }
@@ -82,7 +83,7 @@ header nav #menu .sociais .sociais-list {
 }
 
 header nav .sociais .sociais-list i {
-  color: var(--color-text-in-background);
+  color: var(--color-secondary);
   font-size: 1.4rem;
 }
 

@@ -2,9 +2,10 @@
   --color-primary: #d4a68e;
   --color-secondary: #1e1e1e;
   --color-secondary-dark: #0d0d0d;
+  --color-secondary-hover: #8c6e64;
   --color-background: #fff;
   --color-text-in-background: #aaaaaa;
-  --color-line-in-background: #e6e6e6;
+  --color-line-in-background: #f2c094;
   --color-white: #fff;
 }
 

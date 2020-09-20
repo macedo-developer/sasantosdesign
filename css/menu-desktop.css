@@ -8,6 +8,7 @@ header nav {
   justify-content: space-around;
   align-items: center;
   padding: 3rem 0;
+  background: var(--color-primary);
 }
 
 header nav #menu {
@@ -20,7 +21,7 @@ header nav #menu {
 header nav #menu .menu-item a {
   text-decoration: none;
   font: 600 0.9rem Poppins;
-  color: var(--color-text-in-background);
+  color: var(--color-secondary);
   line-height: 2.4rem;
   text-transform: uppercase;
 
@@ -28,7 +29,7 @@ header nav #menu .menu-item a {
 }
 
 header nav #menu .menu-item a:hover {
-  color: var(--color-secondary-dark);
+  color: var(--color-secondary-hover);
 }
 
 header nav #menu .sociais {
@@ -46,12 +47,12 @@ header nav #menu .sociais .sociais-list {
 }
 
 header nav #menu .sociais .sociais-list i {
-  color: var(--color-text-in-background);
+  color: var(--color-secondary);
   font: 0.9rem;
 
   transition: color 0.5s ease;
 }
 
 header nav #menu .sociais .sociais-list i:hover {
-  color: var(--color-secondary-dark);
+  color: var(--color-secondary-hover);
 }
