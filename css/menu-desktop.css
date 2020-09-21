@@ -3,12 +3,15 @@
 }
 
 header nav {
+  width: 100vw;
   display: flex;
+  flex-direction: column;
 
   justify-content: space-around;
   align-items: center;
-  padding: 3rem 0;
+  padding: 2rem 0 3rem 0;
   background: var(--color-primary);
+  overflow: hidden;
 }
 
 header nav #menu {
@@ -16,6 +19,7 @@ header nav #menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 1rem;
 }
 
 header nav #menu .menu-item a {
@@ -55,4 +59,10 @@ header nav #menu .sociais .sociais-list i {
 
 header nav #menu .sociais .sociais-list i:hover {
   color: var(--color-secondary-hover);
+}
+
+@media (max-width: 768px) {
+  header nav #menu {
+    width: 70%;
+  }
 }
