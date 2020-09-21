@@ -1,5 +1,6 @@
 .hamburguer {
-  position: relative;
+  position: absolute;
+  right: 2rem;
 }
 
 .hamburguer div {
@@ -18,8 +19,7 @@
 
 header nav {
   display: flex;
-
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   padding: 3rem 0;
   background-color: var(--color-primary);
