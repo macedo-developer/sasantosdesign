@@ -23,3 +23,22 @@
   font: 500 1.2rem Poppins;
   text-transform: uppercase;
 }
+
+.page-404 .back-home {
+  width: 14rem;
+  height: 3rem;
+  background: var(--color-secondary);
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  color: var(--color-primary);
+  text-decoration: none;
+  font: 400 0.8rem Poppins;
+  text-transform: uppercase;
+
+}
