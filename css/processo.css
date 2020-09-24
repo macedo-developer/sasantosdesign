@@ -9,9 +9,10 @@
 }
 
 #content-processo .title-page {
-  font: 700 1.2rem Poppins;
+  font: 700 2.2rem Poppins;
   line-height: 2.4rem;
   color: var(--color-primary);
+  margin-top: 2rem;
 }
 
 #content-processo .section-processo {
