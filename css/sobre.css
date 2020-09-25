@@ -37,3 +37,17 @@
 #content-sobre .section-sobre .avatar-sobre img {
   width: 20rem;
 }
+
+@media (min-width: 1024px) {
+  #content-sobre .section-sobre {
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #content-sobre .section-sobre .avatar-sobre {
+    margin-left: 5rem;
+  }
+}
