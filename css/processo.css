@@ -49,15 +49,15 @@
 #content-processo .stage-processo .group-stage {
   width: 100%;
   display: grid;
-  grid-template-rows: 0.1fr 0.1fr 2fr;
+  grid-template-rows: 0.1fr 0.1fr 1fr;
   flex-direction: column;
   justify-content: center;
   justify-items: center;
   align-items: center;
 
-  background: var(--color-primary-transparent);
-  padding: 1rem;
-  border-radius: 0.5rem;
+  /* background: var(--color-primary-transparent); */
+  /* padding: 1rem; */
+  /* border-radius: 0.5rem; */
 }
 
 #content-processo .stage-processo .group-stage strong {
@@ -71,19 +71,13 @@
   margin: 1rem 0;
 }
 
-@media (min-width: 700px) {
-  #content-processo .stage-processo {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
 @media (min-width: 1024px) {
   #content-processo {
     max-width: 80%;
     margin: 0 auto;
   }
   #content-processo .stage-processo {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     row-gap: 1rem;
     column-gap: 1rem;
   }
