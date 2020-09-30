@@ -114,16 +114,28 @@
             </div>
           </div>
           <form>
+            <h4>Enviar Mensagem</h4>
             <div class="input-block">
+              <input
+                type="text"
+                required
+                name="nome"
+                id="name"
+                placeholder=" "
+              />
               <label for="name">Nome</label>
-              <input type="text" required name="nome" id="name" />
             </div>
             <div class="input-block">
+              <input
+                type="text"
+                required
+                name="email"
+                id="email"
+                placeholder=" "
+              />
               <label for="email">Email</label>
-              <input type="text" required name="email" id="email" />
             </div>
             <div class="input-block">
-              <label for="messagem">Mensagem</label>
               <textarea
                 required
                 name="messagem"
@@ -131,6 +143,7 @@
                 cols="30"
                 rows="10"
               ></textarea>
+              <label for="messagem">Mensagem</label>
             </div>
             <button>Enviar</button>
           </form>

@@ -15,5 +15,145 @@
   font: 700 2.2rem Poppins;
   line-height: 2.4rem;
   color: var(--color-primary);
-  margin-top: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+#content-contato .section-contato .infos p {
+  text-align: center;
+}
+
+#content-contato .section-contato .infos .social-contato {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#content-contato .section-contato .social-contato .sociais-list-contato {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 1.4rem 0;
+}
+
+.sociais-list-contato i {
+  font-size: 1.8rem;
+}
+
+#content-contato .section-contato form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 2rem 0;
+}
+
+#content-contato .section-contato form h4 {
+  font: 400 1.2rem Poppins;
+  line-height: 2.4rem;
+  color: var(--color-primary);
+}
+
+#content-contato .section-contato form .input-block {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#content-contato .section-contato form .input-block + .input-block {
+  margin-top: 1rem;
+}
+
+#content-contato .section-contato form .input-block label {
+  font: 400 1rem Poppins;
+  line-height: 2.4rem;
+  color: var(--color-secondary);
+}
+
+.input-block label {
+  font-size: 1rem;
+  pointer-events: none;
+  position: absolute;
+  top: calc(50% - 1.5rem);
+  left: 0.5rem;
+  transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+#content-contato .section-contato form .input-block input {
+  width: 100%;
+  height: 5.8rem;
+  margin-top: 0.1rem;
+  border-radius: 0.6rem;
+
+  background: var(--color-white);
+  border: 1px solid var(--color-primary);
+
+  outline: 0;
+  padding: 0.5rem 1rem 0;
+
+  font: 1.2rem Poppins;
+
+  transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -webkit-appearance: none;
+}
+
+.input-block input:focus {
+  border: 1px solid var(--color-primary);
+}
+
+.input-block input::placeholder {
+  color: transparent;
+}
+
+.input-block input:focus + label,
+.input-block input:not(:placeholder-shown) + label {
+  font-size: 0.8rem;
+  top: 0.1rem;
+  color: var(--color-primary-dark);
+}
+
+#content-contato .section-contato form .input-block textarea {
+  width: 100%;
+  height: 16rem;
+  min-height: 8rem;
+  margin-top: 0.8rem;
+  border-radius: 0.8rem;
+
+  background: var(--color-white);
+  border: 1px solid var(--color-primary);
+
+  resize: vertical;
+  outline: 0;
+  padding: 2rem 1rem 0;
+
+  font: 1.2rem Poppins;
+
+  transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -webkit-appearance: none;
+}
+
+.input-block textarea:focus {
+  border: 1px solid var(--color-primary);
+}
+
+.input-block textarea::placeholder {
+  color: transparent;
+}
+
+.input-block textarea:focus + label,
+.input-block textarea:not(:placeholder-shown) + label {
+  font-size: 1.2rem;
+  top: 0.5rem;
+  color: var(--color-primary-dark);
 }
