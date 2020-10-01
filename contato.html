@@ -110,19 +110,31 @@
                     ><i class="fab fa-instagram"></i
                   ></a>
                 </li>
+                <li>
+                  <a href="mailto:sasantosdesign@gmail.com" target="_blank"
+                    ><i class="far fa-envelope"></i
+                  ></a>
+                </li>
               </ul>
             </div>
+
+            <p id="my-form-status">Mensagem Enviada com sucesso!</p>
           </div>
-          <form>
+          <form
+            id="my-form"
+            action="https://formspree.io/f/xaylnazz"
+            method="POST"
+          >
             <h4>Enviar Mensagem</h4>
             <div class="input-block">
               <label for="name">Nome</label>
               <input
                 type="text"
                 required
-                name="nome"
+                name="Nome"
                 id="name"
                 placeholder=" "
+                autocomplete="off"
               />
             </div>
             <div class="input-block">
@@ -130,23 +142,25 @@
               <input
                 type="text"
                 required
-                name="email"
+                name="Email"
                 id="email"
                 placeholder=" "
+                autocomplete="off"
+                autocomplete="off"
               />
             </div>
             <div class="input-block">
               <label for="messagem">Mensagem</label>
               <textarea
                 required
-                name="messagem"
+                name="Mensagem"
                 id="mensagem"
                 cols="30"
-                rows="4"
+                rows="2"
                 placeholder=" "
               ></textarea>
             </div>
-            <button type="submit">ENVIAR</button>
+            <button id="my-form-button" type="submit">ENVIAR</button>
           </form>
         </section>
       </main>
@@ -175,5 +189,6 @@
     </div>
 
     <script src="./js/burger.js"></script>
+    <script src="./js/contato.js"></script>
   </body>
 </html>
