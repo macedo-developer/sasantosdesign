@@ -63,7 +63,7 @@
   font: 400 1.2rem Poppins;
   line-height: 2.4rem;
   color: var(--color-primary);
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 #content-contato .section-contato form .input-block {
@@ -73,17 +73,13 @@
 }
 
 #content-contato .section-contato form .input-block + .input-block {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 #content-contato .section-contato form .input-block label {
-  font: 400 1rem Poppins;
-  line-height: 2.4rem;
+  font: 400 0.8rem Poppins;
+  line-height: 1.5rem;
   color: var(--color-secondary);
-}
-
-.input-block label {
-  font-size: 1rem;
 }
 
 #content-contato .section-contato form .input-block input {
@@ -98,7 +94,7 @@
   outline: 0;
   padding: 1rem;
 
-  font: 1rem Poppins;
+  font: 400 0.8rem Poppins;
 
   transition: all 0.1s linear;
   -webkit-transition: all 0.1s linear;
@@ -108,7 +104,7 @@
 
 #content-contato .section-contato form .input-block textarea {
   width: 100%;
-  min-height: 8rem;
+  min-height: 3rem;
   margin-top: 0.8rem;
   border-radius: 0.4rem;
 
@@ -119,7 +115,7 @@
   outline: 0;
   padding: 1rem;
 
-  font: 1.2rem Poppins;
+  font: 0.8rem Poppins;
 
   transition: all 0.1s linear;
   -webkit-transition: all 0.1s linear;
@@ -141,9 +137,20 @@
 
   background: var(--color-secondary);
 
-  font: 400 1rem Poppins;
+  font: 400 0.9rem Poppins;
   line-height: 2.4rem;
   color: var(--color-white);
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+
+#content-contato .section-contato form button[type="submit"]:hover {
+  background: var(--color-secondary-hover);
+}
+
+#content-contato .section-contato #my-form-status {
+  color: var(--color-primary);
+  transition: all 0.5s ease;
 }
 
 @media (min-width: 1024px) {
@@ -155,14 +162,7 @@
     grid-template-columns: repeat(2, 1fr);
     column-gap: 3rem;
     justify-content: space-between;
-  }
-
-  #content-contato .section-contato .infos .title-page {
-    text-align: left;
-  }
-
-  #content-contato .section-contato .infos p {
-    text-align: left;
+    align-items: center;
   }
 
   #content-contato .section-contato form {
