@@ -5,7 +5,7 @@
 #content-contato .section-contato {
   width: 90%;
   margin: 0 auto;
-  
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -151,7 +151,10 @@
     width: 80%;
 
     margin: 0 auto;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+    justify-content: space-between;
   }
 
   #content-contato .section-contato .infos .title-page {
@@ -160,6 +163,12 @@
 
   #content-contato .section-contato .infos p {
     text-align: left;
+  }
+
+  #content-contato .section-contato form {
+    padding-top: 5rem;
+    width: 80%;
+    margin: 0 auto;
   }
 }
 
