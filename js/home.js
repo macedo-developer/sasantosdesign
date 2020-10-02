@@ -1,5 +1,7 @@
 const projects = document.querySelectorAll(".projects li");
 
 projects.forEach((project) => {
-  console.log(project);
+  project.addEventListener("onmouseover", () => {
+    console.log("oi");
+  });
 });
