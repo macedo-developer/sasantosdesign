@@ -31,12 +31,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  top: calc(50% - 2rem);
+  top: calc(50% - 5rem);
   left: 2rem;
 }
 
 .wrapper main .projects li .project-div .detail-project p {
-  font: 700 1.5rem Poppins;
+  font: 700 1.8rem Poppins;
   line-height: 2.4rem;
   color: var(--color-white);
   text-align: left;
