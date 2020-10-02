@@ -1,6 +1,8 @@
 .hamburguer {
   position: absolute;
   right: 2rem;
+
+  z-index: 4;
 }
 
 .hamburguer div {
