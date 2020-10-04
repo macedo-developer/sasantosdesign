@@ -43,6 +43,11 @@ li {
   list-style: none;
 }
 
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
 .wrapper header nav #menu .menu-item#active a {
   color: var(--color-secondary-hover);
 }
