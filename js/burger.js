@@ -1,9 +1,17 @@
 const navSlide = () => {
+  const wrapper = document.querySelector(".wrapper");
   const hamburguer = document.querySelector(".hamburguer");
   const nav = document.querySelector("#menu");
   const itemMenu = document.querySelectorAll("#menu .menu-item");
 
+  var overflow = true;
+
   hamburguer.addEventListener("click", () => {
+    overflow = !overflow;
+    console.log(wrapper);
+    console.log(overflow);
+
+    wrapper.style.overflow = overflow ? "visible" : "hidden";
     nav.classList.toggle("nav-active");
 
     itemMenu.forEach((item, index) => {
