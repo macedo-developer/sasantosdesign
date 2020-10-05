@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
@@ -85,7 +87,7 @@
       <main id="content-sobre">
         <h1 class="title-page">Sobre</h1>
         <section class="section-sobre">
-          <div class="text-sobre">
+          <div class="text-sobre" data-aos="fade-right">
             <p>
               Você chegou até aqui! Maravilha! Deixa eu me apresentar pra você:
             </p>
@@ -110,7 +112,12 @@
 
             <a class="link-contato" href="/contato.html">Vem comigo!</a>
           </div>
-          <div class="avatar-sobre">
+          <div
+            class="avatar-sobre"
+            data-aos="fade-left"
+            data-aos-delay="150"
+            data-aos-duration="1000"
+          >
             <img
               src="./assets/sobre/sara-santos.jpg"
               alt="Sara Santos"
@@ -144,5 +151,10 @@
     </div>
 
     <script src="./js/burger.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

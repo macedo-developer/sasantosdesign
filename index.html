@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
@@ -84,7 +86,7 @@
 
       <main>
         <ul class="projects">
-          <li>
+          <li data-aos="zoom-in" data-aos-once="true" data-aos-duration="800">
             <a href="./projects/brenda-rodrigues.html">
               <div class="project-div brenda">
                 <img
@@ -97,7 +99,7 @@
               </div>
             </a>
           </li>
-          <li>
+          <li data-aos="zoom-in" data-aos-once="true" data-aos-duration="800">
             <a href="./projects/adriano_abreu.html">
               <div class="project-div adriano">
                 <img
@@ -110,7 +112,7 @@
               </div>
             </a>
           </li>
-          <li>
+          <li data-aos="zoom-in" data-aos-once="true" data-aos-duration="800">
             <a href="./projects/mesomorfo.html">
               <div class="project-div mesomorfo">
                 <img src="./assets/projects/mesomorfo.jpg" alt="Mesomorfo" />
@@ -120,19 +122,21 @@
               </div>
             </a>
           </li>
-          <li>
-            <div class="project-div maria_clemura">
-              <img
-                src="./assets/projects/maria_clemura.jpg"
-                alt="Maria Clemura"
-              />
-              <div class="detail-project">
-                <p>Maria Clemura | Estética</p>
+          <li data-aos="zoom-in" data-aos-once="true" data-aos-duration="800">
+            <a href="./projects/maria_clemura.html">
+              <div class="project-div maria_clemura">
+                <img
+                  src="./assets/projects/maria_clemura.jpg"
+                  alt="Maria Clemura"
+                />
+                <div class="detail-project">
+                  <p>Maria Clemura | Estética</p>
+                </div>
               </div>
-            </div>
+            </a>
           </li>
-          <li>
-            <a href="">
+          <li data-aos="zoom-in" data-aos-once="true" data-aos-duration="800">
+            <a href="./projects/bigolo.html">
               <div class="project-div bigolo">
                 <img src="./assets/projects/bigolo.jpg" alt="Bigolo" />
 
@@ -142,15 +146,16 @@
               </div>
             </a>
           </li>
-          <li>
-            <div class="project-div geposs">
-              <img src="./assets/projects/geposs.jpg" alt="GEPOSS" />
-              <div class="detail-project">
-                <p>GEPOSS | Grupo Social</p>
+          <li data-aos="zoom-in" data-aos-once="true" data-aos-duration="800">
+            <a href="./projects/geposs.html">
+              <div class="project-div geposs">
+                <img src="./assets/projects/geposs.jpg" alt="GEPOSS" />
+                <div class="detail-project">
+                  <p>GEPOSS | Grupo Social</p>
+                </div>
               </div>
-            </div>
+            </a>
           </li>
-          <li></li>
         </ul>
       </main>
       <footer>
@@ -179,5 +184,10 @@
 
     <script src="./js/burger.js"></script>
     <script src="./js/home.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
