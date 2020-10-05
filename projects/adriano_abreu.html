@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
@@ -86,12 +88,36 @@
         <section class="section-project">
           <h3 class="title-page">Adriano Abreu | Personal</h3>
           <div class="mosaic">
-            <img src="./../assets/projects/adriano/000.png" alt="Imagem 1" />
-            <img src="./../assets/projects/adriano/001.png" alt="Imagem 2" />
-            <img src="./../assets/projects/adriano/002.png" alt="Imagem 3" />
-            <img src="./../assets/projects/adriano/003.png" alt="Imagem 4" />
-            <img src="./../assets/projects/adriano/004.png" alt="Imagem 5" />
-            <img src="./../assets/projects/adriano/005.png" alt="Imagem6" />
+            <img
+              src="./../assets/projects/adriano/000.png"
+              alt="Imagem 1"
+              data-aos="flip-down"
+            />
+            <img
+              src="./../assets/projects/adriano/001.png"
+              alt="Imagem 2"
+              data-aos="flip-up"
+            />
+            <img
+              src="./../assets/projects/adriano/002.png"
+              alt="Imagem 3"
+              data-aos="flip-left"
+            />
+            <img
+              src="./../assets/projects/adriano/003.png"
+              alt="Imagem 4"
+              data-aos="flip-right"
+            />
+            <img
+              src="./../assets/projects/adriano/004.png"
+              alt="Imagem 5"
+              data-aos="flip-up"
+            />
+            <img
+              src="./../assets/projects/adriano/005.png"
+              alt="Imagem6"
+              data-aos="flip-down"
+            />
           </div>
         </section>
       </main>
@@ -120,5 +146,9 @@
     </div>
 
     <script src="./../js/burger.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
