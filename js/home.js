@@ -31,17 +31,15 @@ projectMesomorfoDiv.onmouseleave = () => {
   pMesomorfo.style.display = "none";
 };
 
-const projectMaria_clemuraDiv = document.querySelector(".maria_clemura");
-const pMaria_clemura = document.querySelector(
-  ".maria_clemura .detail-project p"
-);
+const projectMaria_cleumaDiv = document.querySelector(".maria_cleuma");
+const pMaria_cleuma = document.querySelector(".maria_cleuma .detail-project p");
 
-projectMaria_clemuraDiv.onmouseover = () => {
-  pMaria_clemura.style.display = "block";
+projectMaria_cleumaDiv.onmouseover = () => {
+  pMaria_cleuma.style.display = "block";
 };
 
-projectMaria_clemuraDiv.onmouseleave = () => {
-  pMaria_clemura.style.display = "none";
+projectMaria_cleumaDiv.onmouseleave = () => {
+  pMaria_cleuma.style.display = "none";
 };
 
 const projectBigoloDiv = document.querySelector(".bigolo");
