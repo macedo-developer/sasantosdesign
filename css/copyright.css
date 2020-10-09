@@ -1,3 +1,16 @@
 footer .copyright {
   margin-top: 3rem;
 }
+
+footer .copyright p {
+  font: 400 0.8rem Poppins;
+}
+
+footer .copyright p a {
+  text-decoration: none;
+  color: var(--color-secondary);
+}
+
+footer .copyright p a:hover {
+  color: var(--color-secondary-hover);
+}
